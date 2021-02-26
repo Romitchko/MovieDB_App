@@ -1,0 +1,9 @@
+Projet réalisé avec : react 
+Pour le groupe : Romain Baudet / Vianney ZAWADA / Alexandre Auriat
+
+Lancer le projet :
+- npm install
+- npm start
+-> ouverture directe de http://localhost:3000/
+
+Merci !
