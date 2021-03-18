@@ -1,3 +1,4 @@
 {
-    "checkpoints.showCheckpointsInScm": true
+    "checkpoints.showCheckpointsInScm": true,
+    "python.pythonPath": "C:\\Python39\\python.exe"
 }

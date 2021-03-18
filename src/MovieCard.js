@@ -44,6 +44,7 @@ const MovieCard = props => {
       <Link to={`/movie/${id}`} style={{ textDecoration: 'none' }}>
         <H2>{title}</H2>
       </Link>
+      
 
       <Genre>
         {props.allGenres

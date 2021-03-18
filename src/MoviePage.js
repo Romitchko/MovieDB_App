@@ -71,6 +71,21 @@ class MoviePage extends React.Component {
                     .map(genre => genre.name)
                     .join(', ')}
                 </p>
+                <button>{ class LikeButton extends React.Component {
+    state = {
+        likes: 0
+      };
+    render() {
+        
+        return <button onClick={this.addLike}>Likes: {this.state.likes} </button>
+      }
+    addLike = () => {
+        let newCount = this.state.likes + 1;
+          this.setState({
+          likes: newCount
+        });
+      };
+    }}</button>
               </div>
               <Recomendations id={this.props.movieDetails.id} />
               
