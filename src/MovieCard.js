@@ -53,8 +53,9 @@ const MovieCard = props => {
           .join(', ')}
       </Genre>
     </Wrapper>
-  );
-};
+    );
+  };
+
 
 export default MovieCard;
 

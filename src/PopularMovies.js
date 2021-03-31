@@ -53,7 +53,7 @@ class PopularMovies extends React.Component {
       return (
         <div className="content">
           <Header>
-            <h1>Films Populaires MovieDB</h1>
+            <h1>MovieDB AlexRomiVianou</h1>
             <div>
               <span>Recherche :</span>
               <input

@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 const H1 = styled.h1`
   margin-top: 0;
   border-bottom: 2px solid black;
-  color: darkblue;
+  color: black;
   & a {
     font-size: 12px;
     margin-left: 15px;
@@ -71,21 +71,7 @@ class MoviePage extends React.Component {
                     .map(genre => genre.name)
                     .join(', ')}
                 </p>
-                <button>{ class LikeButton extends React.Component {
-    state = {
-        likes: 0
-      };
-    render() {
-        
-        return <button onClick={this.addLike}>Likes: {this.state.likes} </button>
-      }
-    addLike = () => {
-        let newCount = this.state.likes + 1;
-          this.setState({
-          likes: newCount
-        });
-      };
-    }}</button>
+                
               </div>
               <Recomendations id={this.props.movieDetails.id} />
               
